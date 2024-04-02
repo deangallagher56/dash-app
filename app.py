@@ -8,6 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # Initialize the Dash app
 app = dash.Dash(__name__, assets_folder='assets')
+server = app.server
 
 # Define some common styles
 tab_style = {

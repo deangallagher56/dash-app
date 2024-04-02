@@ -1,2 +1,4 @@
 dash==2.15.0
 werkzeug==3.0.1
+pandas
+gunicorn
